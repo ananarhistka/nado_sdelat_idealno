@@ -35,14 +35,10 @@ html {
   object-position: center;
 }
 
-.pages__titles {
+.page__title {
   font-family: "Raleway", sans-serif;
   z-index: 1;
   max-width: 720px;
-  margin: 0 442px;
-}
-
-.page__title {
   font-size: 116px;
   font-weight: 800;
   line-height: 136.18px;
@@ -53,17 +49,7 @@ html {
   padding-top: 60px;
 }
 
-.page__title_ideal {
-  font-size: 116px;
-  font-weight: 800;
-  line-height: 136.18px;
-  letter-spacing: 0.035em;
-  text-align: center;
-  text-transform: uppercase;
-  margin: 0 -11px;
-}
-
-.page__title_ideal::after {
+.page__title::after {
   content: "*";
   position: relative;
 }
